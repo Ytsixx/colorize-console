@@ -1,12 +1,42 @@
 {
   "name": "colorize-console",
   "version": "1.0.0",
+  "description": "Biblioteca para personalização de logs coloridos no console com mais de 150 cores e temas predefinidos. Ideal para desenvolvedores que buscam melhorar a legibilidade e a experiência de logs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Building project...'",
+    "lint": "eslint . --fix",
+    "prepublishOnly": "npm run lint && npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "colorize",
+    "console",
+    "logs",
+    "nodejs",
+    "development",
+    "themes",
+    "logs-coloridos",
+    "color-logs"
+  ],
+  "author": "SixxModz - Evaristo",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Ytsixx/colorize-console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ytsixx/colorize-console/issues"
+  },
+  "homepage": "https://github.com/Ytsixx/colorize-console#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "preferGlobal": false
 }
